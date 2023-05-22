@@ -1,0 +1,21 @@
+ body {
+    color: white;
+    background-color: rgb(127, 255, 138);
+}
+
+#seccion1 {
+    font-size: 60px;
+    text-align: center;
+    background-image: url(fondopag.jpg) ;
+    background-size: contain;
+
+}
+
+.proyectos {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.proyecto img {
+    width: 50%;
+}
